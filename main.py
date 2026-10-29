@@ -26,6 +26,7 @@ def writing_to_file():
             with open(TEXT_FILE, 'w') as file:
                 # Loop for writing text on each line
                 for line in range(number_of_lines):
+                    # The user types any text for each line before writing to the text file.
                     text = input(f"Type any text for line {line + 1}: ")
                     file.write(text + '\n')
                 good_value_received = True
