@@ -3,8 +3,8 @@ import pyttsx3 as tts
 
 ''' This program is a text-to-speech conversion using the pyttsx3 library that will read and speak each line inside the text file. '''
 
-# Constant
-TEXT_FILE = Path(__file__).resolve().parent / "text.txt"    # Text file in the same folder
+# Text file in same folder
+TEXT_FILE = Path(__file__).resolve().parent / "text.txt"
 
 def main():
     # Check to make sure file exists in same folder
@@ -49,4 +49,3 @@ def reading_file():
 
 if __name__ == '__main__':
     main()
-
