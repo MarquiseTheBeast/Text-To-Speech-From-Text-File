@@ -20,6 +20,7 @@ def writing_to_file():
     while not good_value_received:
         try:
             # Entering the number of lines you want in the text file
+            # If detected as non-integer, user will be prompted to enter again
             number_of_lines = int(input("How many number of lines do you want in the text file?: "))
 
             # Opening the text file for writing
